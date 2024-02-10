@@ -35,7 +35,7 @@
     background-size: 300% 100%;
 
 
-    moz-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -43,7 +43,7 @@
 
 .ui-menu-color-home:hover, .ui-menu-color-resume:hover, .ui-menu-color-contact:hover, .ui-menu-color-download:hover {
     background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -73,33 +73,26 @@
     box-shadow: 0 4px 25px 0 rgba(116, 79, 168, 0.75);
 }
 
-/*
-.ui-menu-color-home {
-    width: 200px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-    margin: 20px;
-    height: 55px;
-    text-align: center;
-    border: none;
-    background-color: #313131;
-    background-size: 300% 100%;
-    transition: background-position 0.4s ease-in-out;
+/*---------------------------------SPECIAL PADDING, MARGIN AND TEXTS*/
+
+h1,h2,h3,h4 {
+    margin: 0;
 }
 
-.ui-menu-color-home:hover {
-    background-position: 100% 0;
-    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
-    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+.uppercase {
+    text-transform: uppercase;
 }
 
-.ui-menu-color-home:focus {
-    outline: none;
+.general-sub {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
 }
-*/
 
+.inline-block {
+    display: inline-block;
+}
 
 /*---------------------------------HEADING*/
 header {
@@ -186,4 +179,45 @@ header {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
+}
+
+/*---------------------------------FOOTER*/
+
+footer {
+    background-color: #171717;
+    padding: 50px 0;
+    color: #ffffff;
+    margin: 0;
+    min-height: 120px;
+}
+
+.cv-pdf i, .fa-instagram, .fa-linkedin, .fa-github {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 5px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    background-size: 300% 100%;
+}
+
+.cv-pdf i:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover,
+.fa-github:hover {
+    background-position: 100% 0;
+    background-image: linear-gradient(to right, #ffadad, #ffd6a5, #fdffb6, #caffbf, #9bf6ff, #a0c4ff, #bdb2ff, #ffc6ff, #fffffc);
+    -webkit-background-clip: text; /* for WebKit/Blink browsers like Chrome and Safari */
+    color: transparent; /* Make text transparent to reveal the gradient background */
+}
+
+.social-links li a i {
+    padding: 12px;
+}
+
+#footer-details {
+    padding: 20px;
 }
