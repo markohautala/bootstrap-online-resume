@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*---------------------------------COLOURS*/
+.bg-color-name-title {
+    background-color: #171717;
+}
+
+.ui-menu-color-home {
+    background-color: #313131;
+}
+
+.ui-menu-color-resume {
+    background-color: #272727;
+}
+
+.ui-menu-color-contact {
+    background-color: #222222;
+}
+
+.ui-menu-color-download {
+    background-color: #1e1e1e;
+}
+
+
+/*Hover effects for buttons*/
+
+.ui-menu-color-home, .ui-menu-color-resume, .ui-menu-color-contact, .ui-menu-color-download {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.ui-menu-color-home:hover, .ui-menu-color-resume:hover, .ui-menu-color-contact:hover, .ui-menu-color-download:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.ui-menu-color-home:focus, .ui-menu-color-resume:focus, .ui-menu-color-contact:focus, .ui-menu-color-download:focus{
+    outline: none;
+}
+
+.ui-menu-color-home:hover {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 25px 0 rgba(116, 79, 168, 0.75);
+}
+
+.ui-menu-color-resume:hover {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 25px 0 rgba(116, 79, 168, 0.75);
+}
+
+.ui-menu-color-contact:hover {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 25px 0 rgba(116, 79, 168, 0.75);
+}
+
+.ui-menu-color-download:hover {
+    background-image: linear-gradient(to right, #1e1e1e, #171717, #121212, #0d0d0d, #080808);
+    box-shadow: 0 4px 25px 0 rgba(116, 79, 168, 0.75);
+}
+
+/*
+.ui-menu-color-home {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-color: #313131;
+    background-size: 300% 100%;
+    transition: background-position 0.4s ease-in-out;
+}
+
+.ui-menu-color-home:hover {
+    background-position: 100% 0;
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+.ui-menu-color-home:focus {
+    outline: none;
+}
+*/
+
+
+/*---------------------------------HEADING*/
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url(../profile\ picture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 65px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0px;
+}
+
+/* CSS hack to get rid of white spacing*/
+.menucontainer {
+    font-size: 0;
+    margin-bottom: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 16px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 140px;
+    text-align: center;
+    padding: 0%;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 30px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
