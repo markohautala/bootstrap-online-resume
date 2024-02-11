@@ -259,3 +259,42 @@ footer {
     background-image: linear-gradient(to right, #ffd6ff, #e7c6ff, #c8b6ff, #b8c0ff, #bbd0ff);
 }
 
+/*---------------------------------MAIN - PERSONAL INFO*/
+
+.bg-color-personal-info {
+    background-color: #171717;
+    color: #ffffff;
+}
+
+.personal-info-item {
+    margin-top: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    display: inline-block;
+    padding-right: 9px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 600;
+}
+
+.personal-info-item .value {
+    width: 60%;
+    position: relative;
+}
