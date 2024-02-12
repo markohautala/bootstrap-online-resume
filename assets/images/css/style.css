@@ -25,7 +25,6 @@
     background-color: #1e1e1e;
 }
 
-
 /*Hover effects for buttons*/
 
 .ui-menu-color-home, .ui-menu-color-resume, .ui-menu-color-contact, .ui-menu-color-download {
@@ -91,6 +90,7 @@ h1,h2,h3,h4 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 20px;
+    margin-top: 20px;
     color: #ffffff;
 }
 
@@ -112,7 +112,7 @@ h1,h2,h3,h4 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     margin-top: 25px;
-    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 /*---------------------------------HEADING*/
@@ -241,6 +241,10 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+.fa-cloud-arrow-down {
+    padding-bottom: 30px;
 }
 
 /*---------------------------------MAIN - THREE REASONS*/
