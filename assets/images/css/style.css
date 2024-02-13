@@ -266,20 +266,22 @@ footer {
 .badge-color {
     background-image: linear-gradient(to right, #555981, #14151f);
     color: #ffffff;
-    padding: 7px 10px;
+    padding: 10px 14px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-right: 5px;
+    font-size: 14px;
 
 }
 
 .badge-color2 {
     background-image: linear-gradient(to right, #0b1a45, #3b4e82);
     color: #ffffff;
-    padding: 7px 10px;
+    padding: 10px 14px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-right: 5px;
+    font-size: 14px;
 
 }
 
@@ -321,4 +323,42 @@ footer {
 .personal-info-item .value {
     width: 60%;
     position: relative;
+}
+
+.timeline-item {
+    padding-left: 50px;
+    position: relative;
+    color: #ffffff;
+    border-left: 1px solid #ffffff;
+    padding-bottom: 20px;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 0.7em;
+    top: 2.7em;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+    padding: 0px;
+    margin: 0px;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #ffffff;
 }
