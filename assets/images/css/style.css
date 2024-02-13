@@ -263,6 +263,26 @@ footer {
     background-image: linear-gradient(to right, #ffd6ff, #e7c6ff, #c8b6ff, #b8c0ff, #bbd0ff);
 }
 
+.badge-color {
+    background-image: linear-gradient(to right, #555981, #14151f);
+    color: #ffffff;
+    padding: 7px 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-right: 5px;
+
+}
+
+.badge-color2 {
+    background-image: linear-gradient(to right, #0b1a45, #3b4e82);
+    color: #ffffff;
+    padding: 7px 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-right: 5px;
+
+}
+
 /*---------------------------------MAIN - PERSONAL INFO*/
 
 .bg-color-personal-info {
