@@ -125,7 +125,7 @@ header {
 }
 
 .logo {
-    background: url(/assets/images/profile-picture.png);
+    background: url("/assets/images/profile-picture.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
