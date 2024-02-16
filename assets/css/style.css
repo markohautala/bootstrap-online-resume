@@ -125,7 +125,7 @@ header {
 }
 
 .logo {
-    background-image: url("../images/profile-picture.png");
+    background-image: url(../images/profile-picture.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -232,6 +232,7 @@ footer {
     background-position: 100% 0;
     background-image: linear-gradient(to right, #ffadad, #ffd6a5, #fdffb6, #caffbf, #9bf6ff, #a0c4ff, #bdb2ff, #ffc6ff, #fffffc);
     -webkit-background-clip: text; /* for WebKit/Blink browsers like Chrome and Safari */
+    background-clip: text; /* for compatibility with other browsers */
     color: transparent; /* Make text transparent to reveal the gradient background */
 }
 
