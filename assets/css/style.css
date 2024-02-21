@@ -126,6 +126,8 @@ header {
 
 .logo-container-big {
     background-color: #171717;
+    min-height: 360px;
+    width: 100%;
 }
 
 .logo {
@@ -133,10 +135,10 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    min-height: 360px;
     border-radius: 250px;
 }
 
