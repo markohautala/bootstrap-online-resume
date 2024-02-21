@@ -124,6 +124,10 @@ header {
     margin-left: 50px;
 }
 
+.logo-container-big {
+    background-color: #171717;
+}
+
 .logo {
     background-image: url(../images/profile-picture.png);
     background-position: center;
@@ -133,6 +137,7 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    border-radius: 250px;
 }
 
 .name {
