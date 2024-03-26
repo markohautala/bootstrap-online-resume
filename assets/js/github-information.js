@@ -28,11 +28,14 @@ function fetchGitHubInformation(event) {
         </div>`);
 
     $.when(
-        $.getJSON(`https://api.github.com/users/${username}`)
+        $.getJSON(`https://api.github.com/users/${username}`),
+        $.getJSON(`https://api.github.com/users/${username}/repos`)
     ).then(
-        function (response) {
-            var userData = response;
+        function (firstResponse, secondResponse) {
+            var userData = firstResponse[0]; // firstResponse is an array, so we need to get the first element
+            var repoData = secondResponse[0];  // secondResponse is an array, so we need to get the first element
             $("#gh-user-data").html(userInformationHTML(userData));
+            $("#gh-repo-data").html(userInformationHTML(repoData));
         }, function (errorResponse) {
             if (errorResponse.status === 404) {
                 $("gh-user-data").html(`<p>No info found for user ${username}</p>`);
