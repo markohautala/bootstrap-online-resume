@@ -116,36 +116,34 @@ img {
 }
 
 .repo-list ul li a {
-  font-weight: bold;
-  padding: 6px 9px;
-  display: block;
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  text-decoration: none;
-  border: 1px solid #356492;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  color: #fff;
-  background-color: #3673af;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#5597d8), to(#3673af));
-  background-image: -webkit-linear-gradient(top, #5597d8, #3673af);
-  background-image: -moz-linear-gradient(top, #5597d8, #3673af);
-  background-image: -ms-linear-gradient(top, #5597d8, #3673af);
-  background-image: -o-linear-gradient(top, #5597d8, #3673af);
-  background-image: linear-gradient(top, #5597d8, #3673af);
-}
-
-.repo-list ul li a:hover {
-  background-color: #396895;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#4b87c2), to(#396895));
-  background-image: -webkit-linear-gradient(top, #4b87c2, #396895);
-  background-image: -moz-linear-gradient(top, #4b87c2, #396895);
-  background-image: -ms-linear-gradient(top, #4b87c2, #396895);
-  background-image: -o-linear-gradient(top, #4b87c2, #396895);
-  background-image: linear-gradient(top, #4b87c2, #396895);
-}
+    font-weight: bold;
+    padding: 6px 9px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: 1px solid #1B1A55;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #000000;
+    background-image: -webkit-linear-gradient(top, #535C91, #9290C3);
+    background-image: -moz-linear-gradient(top, #535C91, #9290C3);
+    background-image: -ms-linear-gradient(top, #535C91, #9290C3);
+    background-image: -o-linear-gradient(top, #535C91, #9290C3);
+    background-image: linear-gradient(top, #535C91, #9290C3);
+  }
+  
+  .repo-list ul li a:hover {
+    background-color: #396895;
+    background-image: -webkit-linear-gradient(top, #070F2B, #1B1A55);
+    background-image: -moz-linear-gradient(top, #070F2B, #1B1A55);
+    background-image: -ms-linear-gradient(top, #070F2B, #1B1A55);
+    background-image: -o-linear-gradient(top, #070F2B, #1B1A55);
+    background-image: linear-gradient(top, #070F2B, #1B1A55);
+  }
 
 .repo-list ul li a:active {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
